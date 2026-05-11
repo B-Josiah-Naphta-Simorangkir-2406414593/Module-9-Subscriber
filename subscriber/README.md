@@ -17,3 +17,5 @@ guest (kedua): Adalah Password untuk akun tersebut. Secara default, password-nya
 localhost: Menunjukkan alamat server tempat RabbitMQ berjalan. localhost berarti broker berada di mesin yang sama dengan aplikasi yang sedang dijalankan.
 
 :5672: Adalah Port standar yang digunakan oleh RabbitMQ untuk komunikasi pesan melalui protokol AMQP.
+
+RabbitMQ running image: ![RabbitMQ image][image/rabbitmq.png]
