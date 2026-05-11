@@ -1,0 +1,13 @@
+/Users/josiah/Documents/adpro/tutorial9/subscriber/Module-9-Subscriber/subscriber/target/debug/deps/amq_protocol_codegen-e0f4cfd4c7d83ed7.d: /Users/josiah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/amq-protocol-codegen-1.4.0/src/lib.rs /Users/josiah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/amq-protocol-codegen-1.4.0/src/internal.rs /Users/josiah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/amq-protocol-codegen-1.4.0/src/named.rs /Users/josiah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/amq-protocol-codegen-1.4.0/src/specs.rs /Users/josiah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/amq-protocol-codegen-1.4.0/src/templating.rs /Users/josiah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/amq-protocol-codegen-1.4.0/src/util.rs /Users/josiah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/amq-protocol-codegen-1.4.0/specs/amqp-rabbitmq-0.9.1.json
+
+/Users/josiah/Documents/adpro/tutorial9/subscriber/Module-9-Subscriber/subscriber/target/debug/deps/libamq_protocol_codegen-e0f4cfd4c7d83ed7.rmeta: /Users/josiah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/amq-protocol-codegen-1.4.0/src/lib.rs /Users/josiah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/amq-protocol-codegen-1.4.0/src/internal.rs /Users/josiah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/amq-protocol-codegen-1.4.0/src/named.rs /Users/josiah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/amq-protocol-codegen-1.4.0/src/specs.rs /Users/josiah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/amq-protocol-codegen-1.4.0/src/templating.rs /Users/josiah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/amq-protocol-codegen-1.4.0/src/util.rs /Users/josiah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/amq-protocol-codegen-1.4.0/specs/amqp-rabbitmq-0.9.1.json
+
+/Users/josiah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/amq-protocol-codegen-1.4.0/src/lib.rs:
+/Users/josiah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/amq-protocol-codegen-1.4.0/src/internal.rs:
+/Users/josiah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/amq-protocol-codegen-1.4.0/src/named.rs:
+/Users/josiah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/amq-protocol-codegen-1.4.0/src/specs.rs:
+/Users/josiah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/amq-protocol-codegen-1.4.0/src/templating.rs:
+/Users/josiah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/amq-protocol-codegen-1.4.0/src/util.rs:
+/Users/josiah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/amq-protocol-codegen-1.4.0/specs/amqp-rabbitmq-0.9.1.json:
+
+# env-dep:CARGO_MANIFEST_DIR=/Users/josiah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/amq-protocol-codegen-1.4.0

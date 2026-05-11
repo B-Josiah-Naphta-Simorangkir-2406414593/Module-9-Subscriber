@@ -1,0 +1,9 @@
+/Users/josiah/Documents/adpro/tutorial9/subscriber/Module-9-Subscriber/subscriber/target/debug/deps/crosstown_bus-66a91e9d15c632b0.d: /Users/josiah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crosstown_bus-0.4.6/src/lib.rs /Users/josiah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crosstown_bus-0.4.6/src/tools/mod.rs /Users/josiah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crosstown_bus-0.4.6/src/tools/helpers.rs /Users/josiah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crosstown_bus-0.4.6/src/queue_bus.rs /Users/josiah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crosstown_bus-0.4.6/src/message_handler.rs
+
+/Users/josiah/Documents/adpro/tutorial9/subscriber/Module-9-Subscriber/subscriber/target/debug/deps/libcrosstown_bus-66a91e9d15c632b0.rmeta: /Users/josiah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crosstown_bus-0.4.6/src/lib.rs /Users/josiah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crosstown_bus-0.4.6/src/tools/mod.rs /Users/josiah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crosstown_bus-0.4.6/src/tools/helpers.rs /Users/josiah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crosstown_bus-0.4.6/src/queue_bus.rs /Users/josiah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crosstown_bus-0.4.6/src/message_handler.rs
+
+/Users/josiah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crosstown_bus-0.4.6/src/lib.rs:
+/Users/josiah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crosstown_bus-0.4.6/src/tools/mod.rs:
+/Users/josiah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crosstown_bus-0.4.6/src/tools/helpers.rs:
+/Users/josiah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crosstown_bus-0.4.6/src/queue_bus.rs:
+/Users/josiah/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crosstown_bus-0.4.6/src/message_handler.rs:
