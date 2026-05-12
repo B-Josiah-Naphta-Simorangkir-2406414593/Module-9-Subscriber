@@ -18,4 +18,17 @@ localhost: Menunjukkan alamat server tempat RabbitMQ berjalan. localhost berarti
 
 :5672: Adalah Port standar yang digunakan oleh RabbitMQ untuk komunikasi pesan melalui protokol AMQP.
 
-RabbitMQ running image: ![RabbitMQ image][image/rabbitmq.png]
+RabbitMQ running image: ![RabbitMQ image](image/rabbitmq.png)
+
+Queue Message image: ![Queue Message image](image/queue_message.png)
+
+Pada percobaan ini, jumlah pesan yang mengantre di queue (di mesin saya berjumlah 15) terjadi karena adanya ketidakseimbangan antara kecepatan publikasi dan kecepatan pemrosesan pesan:
+
+Delay pada Subscriber: Dengan mengaktifkan thread::sleep(ten_millis), setiap pesan membutuhkan waktu minimal 1 detik untuk diproses.
+
+Rapid Publishing: Saat publisher dijalankan berkali-kali secara cepat dalam waktu singkat, ia mengirimkan banyak pesan (misal 4 kali jalan = 20 pesan) hampir secara instan ke broker.
+
+Queueing Mechanism: Karena subscriber hanya bisa memproses 1 pesan per detik, pesan-pesan selebihnya disimpan sementara oleh RabbitMQ di dalam memori/disk. Angka yang muncul di dashboard adalah representasi dari jumlah pesan yang sudah diterima oleh broker tetapi belum sempat diambil atau diselesaikan oleh subscriber.
+
+Hal ini mendemonstrasikan salah satu keuntungan utama menggunakan message broker: sistem tidak langsung crash saat terjadi lonjakan beban (seperti SIAK War), melainkan pesan-pesan tersebut "diamankan" di dalam antrean sampai subscriber mampu memprosesnya satu per satu.
+
