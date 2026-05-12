@@ -32,3 +32,17 @@ Queueing Mechanism: Karena subscriber hanya bisa memproses 1 pesan per detik, pe
 
 Hal ini mendemonstrasikan salah satu keuntungan utama menggunakan message broker: sistem tidak langsung crash saat terjadi lonjakan beban (seperti SIAK War), melainkan pesan-pesan tersebut "diamankan" di dalam antrean sampai subscriber mampu memprosesnya satu per satu.
 
+
+Queue Message Low image: ![Queue Message Low image](image/queue_message_low.png)
+
+Lonjakan antrean pesan berkurang jauh lebih cepat dibandingkan sebelumnya karena saya menerapkan Horizontal Scaling dengan menjalankan tiga instance subscriber sekaligus.
+
+Dalam RabbitMQ, ketika beberapa subscriber mendengarkan antrean yang sama, broker akan mendistribusikan pesan menggunakan mekanisme Competing Consumers. Artinya, beban kerja dibagi secara paralel. Jika sebelumnya satu subscriber membutuhkan 20 detik untuk memproses 20 pesan (karena delay 1 detik/pesan), dengan tiga subscriber, waktu total pemrosesan terpangkas menjadi sekitar sepertiganya saja (sekitar 7 detik).
+
+Berdasarkan kode publisher dan subscriber yang sudah dibuat, ada beberapa hal yang bisa ditingkatkan:
+
+CPU Usage: Pada fungsi main, penggunaan loop {} kosong akan membuat penggunaan CPU melonjak hingga 100% pada satu core. Sebaiknya gunakan std::thread::park() atau std::thread::sleep dengan durasi panjang agar program tetap idle tanpa membuang sumber daya CPU.
+
+Error Handling: Saat ini program menggunakan .unwrap() pada koneksi broker. Di lingkungan produksi, sebaiknya gunakan penanganan error yang lebih baik agar subscriber bisa mencoba menyambung kembali (reconnect) secara otomatis jika koneksi internet/broker terputus.
+
+Environment Variables: URL AMQP masih di-hardcode. Akan lebih baik jika alamat broker diletakkan di file .env agar lebih aman dan fleksibel saat dideploy ke server yang berbeda.
